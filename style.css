@@ -47,14 +47,14 @@ body {
 input[type="text"] {
     width: calc(100% - 70px);
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #0000b3;
     border-radius: 20px;
     margin-right: 10px;
     outline: none;
 }
 
 input[type="text"]:focus {
-    border-color: #000000;
+    border-color: #bbff00;
 }
 
 button {
@@ -69,5 +69,16 @@ button {
 }
 
 button:hover {
-    background-color: #000000;
+    background-color: #0999ec;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"] {
+        width: calc(100% - 60px);
+    }
 }
