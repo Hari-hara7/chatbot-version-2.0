@@ -1,12 +1,6 @@
 const chatbotResponses = [
-    "Welcome to Academic Pal!",
-    "How can I assist you today?",
-    "Nice to have you here!",
-    "Greetings!",
-    "Is there anything specific you'd like to explore?",
-    "Feel free to ask me anything!",
-    "What feature are you interested in?",
-    "I'm here to help!",
+    "Ask about  notes provide subject name i will generate a link to access",
+ 
   ];
   
   const subjectLinks = {
