@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> <!-- Add your CSS file if needed -->
-    <link rel="icon" href="path/to/favicon.ico"> <!-- Add your favicon -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <link rel="icon" href="path/to/favicon.ico"> <!-- Add the correct path to your favicon -->
     <title>Academic Pal Chatbot</title>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CRGC5Z06DK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CRGC5Z06DK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-CRGC5Z06DK');
-</script>
+      gtag('config', 'G-CRGC5Z06DK');
+    </script>
+    <!-- Spline 3D Object Viewer -->
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.4.0/build/spline-viewer.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGDizIH8HMP5y6qTldEpO8VZEd6X0UiSrYFw&usqp=CAU" alt="Your Website Logo" class="logo"> <!-- Add your logo here -->
-            <h1>Academic Pal chatbot</h1>
-         
-        
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGDizIH8HMP5y6qTldEpO8VZEd6X0UiSrYFw&usqp=CAU" alt="Academic Pal Logo" class="logo"> <!-- Make sure the logo source is correct -->
+            <h1>Academic Pal Chatbot</h1>
+        </div>
+        <!-- Spline 3D Object -->
+        <div class="spline-container">
+            <spline-viewer url="https://prod.spline.design/lLTW-gLZGyNZ2GhX/scene.splinecode"></spline-viewer>
         </div>
         <div class="chatbox">
             <div class="chat" id="chat"></div>
@@ -30,6 +34,6 @@
             <button onclick="sendMessage()">Send</button>
         </div>
     </div>
-    <script src="script.js"></script> <!-- Add your JavaScript file -->
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
 </body>
 </html>
